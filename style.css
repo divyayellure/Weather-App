@@ -1,0 +1,74 @@
+/* Style for the entire body */
+body {
+    background-image: url('https://example.com/path-to-your-background-image.jpg'); /* Add the path to your background image */
+    background-size: cover;  /* Ensure the image covers the whole screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    height: 100vh; /* Full screen height */
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Set a clean, readable font */
+    color: white; /* White text color for contrast */
+}
+
+/* Container for the weather app content */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+
+/* Style for the header */
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+/* Style for the weather input section */
+.weather-info {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the input field */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Style for the button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50; /* Green background for the button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green when hovering */
+}
+
+/* Style for the weather results section */
+#weather-results {
+    margin-top: 20px;
+}
+
+/* Style for the error message */
+#error-message {
+    color: red;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
