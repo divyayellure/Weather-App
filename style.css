@@ -1,6 +1,6 @@
 /* Style for the entire body */
 body {
-    background-image: url('https://example.com/path-to-your-background-image.jpg'); /* Add the path to your background image */
+    background-image: url('https://cdn.pixabay.com/photo/2023/10/30/19/10/clouds-8353592_1280.jpg'); /* Add the path to your background image */
     background-size: cover;  /* Ensure the image covers the whole screen */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
